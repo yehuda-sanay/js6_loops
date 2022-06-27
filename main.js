@@ -2,12 +2,11 @@ const user_info={
     age:18,
     firstName:"yehuda",
     lastName:"sanay",
-}
-function printUserInfo(user_info){
-    user_info.forEach(element => {
-        if(user_info.age>1){
-        h1_id.innerHTML=element[1];}
-    });
+};
+function printUserInfo(){
+    for (let key in user_info) {
+        h1_id.innerHTML+=`${key} : ${user_info[key]}<br/>`
+    }
 
 }
 printUserInfo()
