@@ -18,3 +18,9 @@
 
 // console.log(myArray);
 
+// const myArray=[5,9,3,2,1,4];
+
+// console.log(Math.min(...myArray));
+// console.log(Math.max(...myArray));
+
+
